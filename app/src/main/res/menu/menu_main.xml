@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_approve"
+        android:title="@string/aprobar_proyecto"
+        android:icon="@drawable/aprobar"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom">
+    </item>
+
+    <item
+        android:id="@+id/action_report_symptoms"
+        android:title="@string/reporte_sintomas"
+        android:icon="@drawable/ic_report_symptoms"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom">
+    </item>
+
+
+
+
+    <item android:id="@+id/action_share"
+        android:title="@string/reporte_sintomas"
+        android:orderInCategory="3"
+        app:showAsAction="never">
+    </item>
+
+</menu>
